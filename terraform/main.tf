@@ -8,7 +8,6 @@ terraform {
 }
 
 provider "google" {
-  credentials = file("./keys/my-cred.json")
   project     = "dezoom-485018"
   region      = "us-central1"
 }
